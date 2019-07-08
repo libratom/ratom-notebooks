@@ -13,3 +13,6 @@ for file in "${ZIPPED_FILES[@]}"; do
   unzip -qo -d $DATA_DIR "${file}"
   rm "${file}"
 done
+
+# Download spacy model
+python -m spacy download en_core_web_sm
