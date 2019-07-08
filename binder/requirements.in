@@ -2,3 +2,6 @@ libratom
 sqlalchemy
 pandas
 spacy
+
+# For building on mybinder.org
+certifi==2019.3.9
