@@ -6,7 +6,7 @@
 #
 attrs==19.1.0             # via jsonschema
 blis==0.2.4               # via spacy, thinc
-certifi==2019.6.16        # via requests
+certifi==2019.3.9
 chardet==3.0.4            # via requests
 cymem==2.0.2              # via preshed, spacy, thinc
 humanfriendly==4.18       # via libratom
@@ -20,7 +20,7 @@ pandas==0.24.2
 pbr==5.4.0                # via libratom
 plac==0.9.6               # via spacy, thinc
 preshed==2.0.1            # via spacy, thinc
-pyrsistent==0.15.2        # via jsonschema
+pyrsistent==0.15.3        # via jsonschema
 python-dateutil==2.8.0    # via pandas
 pytz==2019.1              # via pandas
 requests==2.22.0          # via spacy
