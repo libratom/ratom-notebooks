@@ -13,7 +13,7 @@ humanfriendly==4.18       # via libratom
 idna==2.8                 # via requests
 jsonschema==3.0.1         # via spacy
 libpff-python-ratom==20190316  # via libratom
-libratom==0.0.1.dev65
+libratom==0.0.1.dev66
 murmurhash==1.0.2         # via spacy, thinc
 numpy==1.16.4             # via blis, pandas, spacy, thinc
 pandas==0.24.2
@@ -33,6 +33,3 @@ tqdm==4.32.2              # via thinc
 treelib==1.5.5            # via libratom
 urllib3==1.25.3           # via requests
 wasabi==0.2.2             # via spacy, thinc
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools==41.0.1        # via jsonschema

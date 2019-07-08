@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DATA_DIR="RevisedEDRMv1_Complete"
+ZIPPED_FILES=(albert_meyers.zip andrea_ring.zip)
+
+mkdir -p $DATA_DIR
+
+# Download and expand enron files
+for file in "${ZIPPED_FILES[@]}"; do
+  wget -q -O "${file}" "https://s3.amazonaws.com/edrm.download.nuix.com/RevisedEDRMv1/${file}"
+  unzip -qo -d $DATA_DIR "${file}"
+  rm "${file}"
+done
+
+# Download spacy model
+python -m spacy download en_core_web_sm
