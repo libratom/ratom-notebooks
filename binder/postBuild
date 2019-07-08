@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -x
-
 DATA_DIR="RevisedEDRMv1_Complete"
 ZIPPED_FILES=(albert_meyers.zip andrea_ring.zip)
 
