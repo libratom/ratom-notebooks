@@ -3,7 +3,7 @@
 set -x
 
 DATA_DIR="RevisedEDRMv1_Complete"
-ZIPPED_FILES=(albert_meyers.zip andrea_ring.zip andrew_lewis.zip)
+ZIPPED_FILES=(albert_meyers.zip andrea_ring.zip)
 
 mkdir -p $DATA_DIR
 
