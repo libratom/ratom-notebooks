@@ -4,9 +4,9 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/libratom/ratom-notebooks/master)
 
-**These example notebooks are in development.**
-
 A selection of Jupyter notebooks to demonstrate features of [libratom](https://github.com/libratom/libratom) and other utilities developed for the RATOM project.
+
+***These example notebooks are under development***
 
 ## Using ratom-notebooks (simple)
 
@@ -35,5 +35,3 @@ Logos, documentation, and other non-software products of the RATOM team are dist
 ## Development Team and Support
 
 Product of the RATOM team. See [https://ratom.web.unc.edu](https://ratom.web.unc.edu/) for up to date information.
-
-
