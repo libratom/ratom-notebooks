@@ -4,32 +4,34 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-attrs==19.1.0             # via jsonschema
-blis==0.2.4               # via spacy, thinc
-certifi==2019.3.9
-chardet==3.0.4            # via requests
-cymem==2.0.2              # via preshed, spacy, thinc
+blessed==1.15.0           # via enlighten, libratom
+blis==0.2.4               # via libratom, spacy, thinc
+certifi==2019.6.16        # via libratom, requests
+chardet==3.0.4            # via libratom, requests
+click-log==0.3.2          # via libratom
+click==7.0                # via click-log, libratom
+cymem==2.0.2              # via libratom, preshed, spacy, thinc
+enlighten==1.3.0          # via libratom
 humanfriendly==4.18       # via libratom
-idna==2.8                 # via requests
-jsonschema==3.0.1         # via spacy
-libpff-python-ratom==20190316  # via libratom
-libratom==0.0.1.dev66
-murmurhash==1.0.2         # via spacy, thinc
-numpy==1.16.4             # via blis, pandas, spacy, thinc
-pandas==0.24.2
-pbr==5.4.0                # via libratom
-plac==0.9.6               # via spacy, thinc
-preshed==2.0.1            # via spacy, thinc
-pyrsistent==0.15.3        # via jsonschema
+idna==2.8                 # via libratom, requests
+libpff-python-ratom==20190725  # via libratom
+libratom==0.1.1
+murmurhash==1.0.2         # via libratom, spacy, thinc
+numpy==1.17.0             # via blis, libratom, pandas, spacy, thinc
+pandas==0.25.0
+pbr==5.4.2                # via libratom
+plac==0.9.6               # via libratom, spacy, thinc
+preshed==2.0.1            # via libratom, spacy, thinc
 python-dateutil==2.8.0    # via pandas
-pytz==2019.1              # via pandas
-requests==2.22.0          # via spacy
-six==1.12.0               # via jsonschema, pyrsistent, python-dateutil
-spacy==2.1.4
-sqlalchemy==1.3.5
-srsly==0.0.7              # via spacy, thinc
-thinc==7.0.4              # via spacy
-tqdm==4.32.2              # via thinc
+pytz==2019.2              # via pandas
+requests==2.22.0          # via libratom, spacy
+six==1.12.0               # via blessed, libratom, python-dateutil
+spacy==2.1.8
+sqlalchemy==1.3.6
+srsly==0.0.7              # via libratom, spacy, thinc
+thinc==7.0.8              # via libratom, spacy
+tqdm==4.33.0              # via libratom, thinc
 treelib==1.5.5            # via libratom
-urllib3==1.25.3           # via requests
-wasabi==0.2.2             # via spacy, thinc
+urllib3==1.25.3           # via libratom, requests
+wasabi==0.2.2             # via libratom, spacy, thinc
+wcwidth==0.1.7            # via blessed, libratom

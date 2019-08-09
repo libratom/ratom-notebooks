@@ -4,4 +4,4 @@ pandas
 spacy
 
 # For building on mybinder.org
-certifi==2019.3.9
+#certifi==2019.3.9
