@@ -2,3 +2,4 @@ libratom
 sqlalchemy
 pandas
 spacy
+tqdm
