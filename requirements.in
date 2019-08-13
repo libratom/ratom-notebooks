@@ -3,3 +3,6 @@ sqlalchemy
 pandas
 spacy
 tqdm
+jupyterlab
+ipywidgets
+
