@@ -33,7 +33,7 @@ jupyter-core==4.5.0       # via jupyter-client, nbconvert, nbformat, notebook
 jupyterlab-server==1.0.0  # via jupyterlab
 jupyterlab==1.0.9
 libpff-python-ratom==20190725  # via libratom
-libratom==0.1.1
+libratom==0.1.2.dev6
 markupsafe==1.1.1         # via jinja2
 mistune==0.8.4            # via nbconvert
 murmurhash==1.0.2         # via libratom, spacy, thinc
