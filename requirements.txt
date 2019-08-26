@@ -25,12 +25,12 @@ ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.7.0            # via ipykernel, ipywidgets
 ipywidgets==7.5.1
 jedi==0.15.1              # via ipython
-jinja2==2.10.1            # via jupyterlab, nbconvert, notebook
+jinja2==2.10.1            # via jupyterlab, jupyterlab-server, nbconvert, notebook
 json5==0.8.5              # via jupyterlab-server
 jsonschema==3.0.2         # via jupyterlab-server, nbformat
 jupyter-client==5.3.1     # via ipykernel, notebook
 jupyter-core==4.5.0       # via jupyter-client, nbconvert, nbformat, notebook
-jupyterlab-server==1.0.0  # via jupyterlab
+jupyterlab-server==1.0.6  # via jupyterlab
 jupyterlab==1.0.9
 libpff-python-ratom==20190725  # via libratom
 libratom==0.1.2.dev6
