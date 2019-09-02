@@ -22,7 +22,7 @@ humanfriendly==4.18       # via libratom
 idna==2.8                 # via libratom, requests
 ipykernel==5.1.2          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
-ipython==7.7.0            # via ipykernel, ipywidgets
+ipython==7.8.0            # via ipykernel, ipywidgets
 ipywidgets==7.5.1
 jedi==0.15.1              # via ipython
 jinja2==2.10.1            # via jupyterlab, jupyterlab-server, nbconvert, notebook
