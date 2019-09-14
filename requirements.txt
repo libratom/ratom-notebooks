@@ -28,7 +28,7 @@ jedi==0.15.1              # via ipython
 jinja2==2.10.1            # via jupyterlab, jupyterlab-server, nbconvert, notebook
 json5==0.8.5              # via jupyterlab-server
 jsonschema==3.0.2         # via jupyterlab-server, nbformat
-jupyter-client==5.3.1     # via ipykernel, notebook
+jupyter-client==5.3.2     # via ipykernel, notebook
 jupyter-core==4.5.0       # via jupyter-client, nbconvert, nbformat, notebook
 jupyterlab-server==1.0.6  # via jupyterlab
 jupyterlab==1.1.2
