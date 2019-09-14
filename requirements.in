@@ -1,4 +1,4 @@
-libratom==0.1.2.dev24
+libratom==0.1.2
 sqlalchemy
 pandas
 spacy
