@@ -50,7 +50,7 @@ pickleshare==0.7.5        # via ipython
 plac==0.9.6               # via libratom, spacy, thinc
 preshed==2.0.1            # via libratom, spacy, thinc
 prometheus-client==0.7.1  # via notebook
-prompt-toolkit==2.0.9     # via ipython
+prompt-toolkit==2.0.10    # via ipython
 ptyprocess==0.6.0         # via pexpect, terminado
 pygments==2.4.2           # via ipython, nbconvert
 pyrsistent==0.15.4        # via jsonschema
