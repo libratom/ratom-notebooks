@@ -1,13 +1,20 @@
 #!/bin/bash
 
-DATA_DIR="RevisedEDRMv1_Complete"
-ZIPPED_FILES=(albert_meyers.zip andrea_ring.zip)
+PST_DATA_DIR="RevisedEDRMv1_Complete"
+ZIPPED_PST_FILES=(albert_meyers.zip andrea_ring.zip)
 
-mkdir -p $DATA_DIR
+MBOX_DATA_DIR="httpd-users"
+
+mkdir -p $PST_DATA_DIR $MBOX_DATA_DIR
 
 # Download and expand enron files
-for file in "${ZIPPED_FILES[@]}"; do
+for file in "${ZIPPED_PST_FILES[@]}"; do
   wget -q -O "${file}" "https://s3.amazonaws.com/edrm.download.nuix.com/RevisedEDRMv1/${file}"
-  unzip -qo -d $DATA_DIR "${file}"
+  unzip -qo -d $PST_DATA_DIR "${file}"
   rm "${file}"
+done
+
+# Download mbox files from mail-archives.apache.org
+for month in {1..6}; do
+  wget -q -O "${MBOX_DATA_DIR}/20190${month}.mbox" "https://mail-archives.apache.org/mod_mbox/httpd-users/20190${month}.mbox"
 done
