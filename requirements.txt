@@ -43,7 +43,7 @@ nbconvert==5.6.0          # via notebook
 nbformat==4.4.0           # via ipywidgets, nbconvert, notebook
 notebook==6.0.1           # via jupyterlab, jupyterlab-server, widgetsnbextension
 numpy==1.17.2             # via blis, libratom, pandas, spacy, thinc
-pandas==0.25.1
+pandas==0.25.2
 pandocfilters==1.4.2      # via nbconvert
 parso==0.5.1              # via jedi
 pbr==5.4.3                # via libratom
