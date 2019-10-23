@@ -20,9 +20,9 @@ In the **binder** folder, you’ll find three Jupyter notebooks:
 
 **pst\_walk.ipynb**, a simple example demonstrating walking a PST file using libpff to identify the number of messages present.
 
-**entities.ipynb**, which identifies all of the entities present in every message body and commits them to a sqlite3 database. A simple widget displays sample entities identified as the PST files are being processed.
+**message\_viewer.ipynb**, which examines the contents of a PST file.
 
-**entities\_multiprocessing.ipynb**, which performs the same task but spreads the work across as many cores as are available. Note: this is intended to be run on a local or dedicated hosted instance; running this notebook in mybinder may reduce performance.
+**entities.ipynb**, which identifies all of the entities present in every message body and commits them to a sqlite3 database. Note: this is intended to be run on a local or dedicated hosted instance; running this notebook in mybinder may reduce performance.
 
 ## Using ratom-notebooks (advanced)
 
