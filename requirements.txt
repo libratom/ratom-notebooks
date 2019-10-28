@@ -39,7 +39,7 @@ markupsafe==1.1.1         # via jinja2
 mistune==0.8.4            # via nbconvert
 more-itertools==7.2.0     # via zipp
 murmurhash==1.0.2         # via libratom, preshed, spacy, thinc
-nbconvert==5.6.0          # via notebook
+nbconvert==5.6.1          # via notebook
 nbformat==4.4.0           # via ipywidgets, nbconvert, notebook
 notebook==6.0.1           # via jupyterlab, jupyterlab-server, widgetsnbextension
 numpy==1.17.2             # via blis, libratom, pandas, spacy, thinc
