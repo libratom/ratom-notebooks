@@ -32,7 +32,7 @@ jsonschema==3.1.1         # via jupyterlab-server, nbformat
 jupyter-client==5.3.4     # via ipykernel, notebook
 jupyter-core==4.6.1       # via jupyter-client, nbconvert, nbformat, notebook
 jupyterlab-server==1.0.6  # via jupyterlab
-jupyterlab==1.2.0
+jupyterlab==1.2.2
 libpff-python-ratom==20190725  # via libratom
 libratom==0.2.2
 markupsafe==1.1.1         # via jinja2
