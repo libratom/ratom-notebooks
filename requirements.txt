@@ -58,7 +58,7 @@ pygments==2.4.2           # via ipython, nbconvert
 pyrsistent==0.15.5        # via jsonschema
 python-dateutil==2.8.0    # via jupyter-client, pandas
 pytz==2019.3              # via pandas
-pyzmq==18.1.0             # via jupyter-client, notebook
+pyzmq==18.1.1             # via jupyter-client, notebook
 requests==2.22.0          # via libratom, spacy
 send2trash==1.5.0         # via notebook
 six==1.12.0               # via bleach, blessed, jsonschema, libratom, prompt-toolkit, pyrsistent, python-dateutil, traitlets
