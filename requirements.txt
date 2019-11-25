@@ -28,7 +28,7 @@ ipywidgets==7.5.1
 jedi==0.15.1              # via ipython
 jinja2==2.10.3            # via jupyterlab, jupyterlab-server, nbconvert, notebook
 json5==0.8.5              # via jupyterlab-server
-jsonschema==3.1.1         # via jupyterlab-server, nbformat
+jsonschema==3.2.0         # via jupyterlab-server, nbformat
 jupyter-client==5.3.4     # via ipykernel, notebook
 jupyter-core==4.6.1       # via jupyter-client, nbconvert, nbformat, notebook
 jupyterlab-server==1.0.6  # via jupyterlab
@@ -80,4 +80,4 @@ widgetsnbextension==3.5.1  # via ipywidgets
 zipp==0.6.0               # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools==41.6.0        # via ipython, jsonschema
+# setuptools==42.0.0        # via ipython, jsonschema
