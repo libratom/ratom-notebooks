@@ -21,7 +21,7 @@ enlighten==1.4.0          # via libratom
 entrypoints==0.3          # via nbconvert
 humanfriendly==4.18       # via libratom
 idna==2.8                 # via libratom, requests
-importlib-metadata==1.3.0  # via catalogue, jsonschema, libratom
+importlib-metadata==1.3.0  # via libratom
 ipykernel==5.1.3          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.11.1           # via ipykernel, ipywidgets
@@ -46,7 +46,7 @@ notebook==6.0.2           # via jupyterlab, jupyterlab-server, widgetsnbextensio
 numpy==1.18.0             # via blis, libratom, pandas, spacy, thinc
 pandas==0.25.3
 pandocfilters==1.4.2      # via nbconvert
-parso==0.5.2              # via jedi
+parso==0.6.1              # via jedi
 pbr==5.4.4                # via libratom
 pexpect==4.7.0            # via ipython
 pickleshare==0.7.5        # via ipython
