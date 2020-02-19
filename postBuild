@@ -9,7 +9,7 @@ mkdir -p $PST_DATA_DIR $MBOX_DATA_DIR
 
 # Download and expand enron files
 for file in "${ZIPPED_PST_FILES[@]}"; do
-  wget -q -O "${file}" "https://s3.amazonaws.com/edrm.download.nuix.com/RevisedEDRMv1/${file}"
+  wget -q -O "${file}" "https://www.ibiblio.org/enron/RevisedEDRMv1_Complete/${file}"
   unzip -qo -d $PST_DATA_DIR "${file}"
   rm "${file}"
 done
