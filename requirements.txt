@@ -27,7 +27,7 @@ ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.11.1           # via ipykernel, ipywidgets
 ipywidgets==7.5.1         # via -r requirements.in
 jedi==0.15.2              # via ipython
-jinja2==2.10.3            # via jupyterlab, jupyterlab-server, nbconvert, notebook
+jinja2==2.11.1            # via jupyterlab, jupyterlab-server, nbconvert, notebook
 json5==0.8.5              # via jupyterlab-server
 jsonschema==3.2.0         # via jupyterlab-server, nbformat
 jupyter-client==5.3.4     # via ipykernel, notebook
