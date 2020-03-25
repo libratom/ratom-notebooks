@@ -41,7 +41,7 @@ mistune==0.8.4            # via nbconvert
 more-itertools==8.0.2     # via libratom, zipp
 murmurhash==1.0.2         # via libratom, preshed, spacy, thinc
 nbconvert==5.6.1          # via notebook
-nbformat==5.0.3           # via ipywidgets, nbconvert, notebook
+nbformat==5.0.4           # via ipywidgets, nbconvert, notebook
 notebook==6.0.2           # via jupyterlab, jupyterlab-server, widgetsnbextension
 numpy==1.18.0             # via blis, libratom, pandas, spacy, thinc
 pandas==0.25.3            # via -r requirements.in
