@@ -46,7 +46,7 @@ notebook==6.0.2           # via jupyterlab, jupyterlab-server, widgetsnbextensio
 numpy==1.18.0             # via blis, libratom, pandas, spacy, thinc
 pandas==0.25.3            # via -r requirements.in
 pandocfilters==1.4.2      # via nbconvert
-parso==0.5.2              # via jedi
+parso==0.6.2              # via jedi
 pbr==5.4.4                # via libratom
 pexpect==4.7.0            # via ipython
 pickleshare==0.7.5        # via ipython
