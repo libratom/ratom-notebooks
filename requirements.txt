@@ -56,7 +56,7 @@ prometheus-client==0.7.1  # via notebook
 prompt-toolkit==3.0.2     # via ipython
 ptyprocess==0.6.0         # via pexpect, terminado
 pygments==2.5.2           # via ipython, nbconvert
-pyrsistent==0.15.6        # via jsonschema
+pyrsistent==0.16.0        # via jsonschema
 python-dateutil==2.8.1    # via jupyter-client, pandas
 pytz==2019.3              # via pandas
 pyzmq==18.1.1             # via jupyter-client, notebook
