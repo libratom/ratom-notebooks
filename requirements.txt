@@ -6,7 +6,7 @@
 #
 attrs==19.3.0             # via jsonschema
 backcall==0.1.0           # via ipython
-bleach==3.1.2             # via nbconvert
+bleach==3.1.4             # via nbconvert
 blessed==1.16.1           # via enlighten, libratom
 blis==0.4.1               # via libratom, spacy, thinc
 catalogue==0.2.0          # via libratom, spacy
