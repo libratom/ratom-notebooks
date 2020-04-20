@@ -22,12 +22,12 @@ entrypoints==0.3          # via nbconvert
 future==0.18.2            # via libratom, treelib
 humanfriendly==8.1        # via libratom
 idna==2.9                 # via libratom, requests
-importlib-metadata==1.6.0  # via catalogue, jsonschema, libratom
+importlib-metadata==1.6.0  # via libratom
 ipykernel==5.2.0          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.13.0           # via ipykernel, ipywidgets
 ipywidgets==7.5.1         # via -r requirements.in
-jedi==0.16.0              # via ipython
+jedi==0.17.0              # via ipython
 jinja2==2.11.1            # via jupyterlab, jupyterlab-server, nbconvert, notebook
 json5==0.9.4              # via jupyterlab-server
 jsonschema==3.2.0         # via jupyterlab-server, libratom, nbformat
@@ -47,7 +47,7 @@ numpy==1.18.2             # via blis, libratom, pandas, spacy, thinc
 packaging==20.3           # via libratom
 pandas==1.0.3             # via -r requirements.in
 pandocfilters==1.4.2      # via nbconvert
-parso==0.6.2              # via jedi
+parso==0.7.0              # via jedi
 pbr==5.4.4                # via libratom
 pexpect==4.8.0            # via ipython
 pickleshare==0.7.5        # via ipython
