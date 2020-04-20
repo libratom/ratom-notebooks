@@ -22,7 +22,7 @@ entrypoints==0.3          # via nbconvert
 future==0.18.2            # via libratom, treelib
 humanfriendly==8.1        # via libratom
 idna==2.9                 # via libratom, requests
-importlib-metadata==1.6.0  # via catalogue, jsonschema, libratom
+importlib-metadata==1.6.0  # via libratom
 ipykernel==5.2.0          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.13.0           # via ipykernel, ipywidgets
@@ -41,7 +41,7 @@ markupsafe==1.1.1         # via jinja2
 mistune==0.8.4            # via nbconvert
 murmurhash==1.0.2         # via libratom, preshed, spacy, thinc
 nbconvert==5.6.1          # via notebook
-nbformat==5.0.5           # via ipywidgets, nbconvert, notebook
+nbformat==5.0.6           # via ipywidgets, nbconvert, notebook
 notebook==6.0.3           # via jupyterlab, jupyterlab-server, widgetsnbextension
 numpy==1.18.2             # via blis, libratom, pandas, spacy, thinc
 packaging==20.3           # via libratom
