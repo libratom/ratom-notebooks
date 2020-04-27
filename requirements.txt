@@ -22,7 +22,7 @@ entrypoints==0.3          # via nbconvert
 future==0.18.2            # via libratom, treelib
 humanfriendly==8.1        # via libratom
 idna==2.9                 # via libratom, requests
-importlib-metadata==1.6.0  # via catalogue, jsonschema, libratom
+importlib-metadata==1.6.0  # via libratom
 ipykernel==5.2.1          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.13.0           # via ipykernel, ipywidgets
@@ -34,7 +34,7 @@ jsonschema==3.2.0         # via jupyterlab-server, libratom, nbformat
 jupyter-client==6.1.3     # via ipykernel, notebook
 jupyter-core==4.6.3       # via jupyter-client, nbconvert, nbformat, notebook
 jupyterlab-server==1.1.1  # via jupyterlab
-jupyterlab==2.1.0         # via -r requirements.in
+jupyterlab==2.1.1         # via -r requirements.in
 libpff-python-ratom==20190725  # via libratom
 libratom==0.4.1           # via -r requirements.in
 markupsafe==1.1.1         # via jinja2
