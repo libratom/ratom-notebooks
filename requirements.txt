@@ -22,10 +22,10 @@ entrypoints==0.3          # via nbconvert
 future==0.18.2            # via libratom, treelib
 humanfriendly==8.1        # via libratom
 idna==2.9                 # via libratom, requests
-importlib-metadata==1.6.0  # via catalogue, jsonschema, libratom
+importlib-metadata==1.6.0  # via libratom
 ipykernel==5.2.1          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
-ipython==7.13.0           # via ipykernel, ipywidgets
+ipython==7.14.0           # via ipykernel, ipywidgets
 ipywidgets==7.5.1         # via -r requirements.in
 jedi==0.17.0              # via ipython
 jinja2==2.11.2            # via jupyterlab, jupyterlab-server, nbconvert, notebook
