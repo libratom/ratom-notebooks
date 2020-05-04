@@ -6,7 +6,7 @@
 #
 attrs==19.3.0             # via jsonschema, libratom
 backcall==0.1.0           # via ipython
-bleach==3.1.4             # via nbconvert
+bleach==3.1.5             # via nbconvert
 blessed==1.17.4           # via enlighten, libratom
 blis==0.4.1               # via libratom, spacy, thinc
 catalogue==1.0.0          # via libratom, spacy, thinc
@@ -22,7 +22,7 @@ entrypoints==0.3          # via nbconvert
 future==0.18.2            # via libratom, treelib
 humanfriendly==8.1        # via libratom
 idna==2.9                 # via libratom, requests
-importlib-metadata==1.6.0  # via catalogue, jsonschema, libratom
+importlib-metadata==1.6.0  # via libratom
 ipykernel==5.2.1          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.13.0           # via ipykernel, ipywidgets
@@ -44,7 +44,7 @@ nbconvert==5.6.1          # via notebook
 nbformat==5.0.6           # via ipywidgets, nbconvert, notebook
 notebook==6.0.3           # via jupyterlab, jupyterlab-server, widgetsnbextension
 numpy==1.18.2             # via blis, libratom, pandas, spacy, thinc
-packaging==20.3           # via libratom
+packaging==20.3           # via bleach, libratom
 pandas==1.0.3             # via -r requirements.in
 pandocfilters==1.4.2      # via nbconvert
 parso==0.7.0              # via jedi
