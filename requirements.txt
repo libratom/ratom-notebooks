@@ -7,22 +7,22 @@
 attrs==19.3.0             # via jsonschema, libratom
 backcall==0.1.0           # via ipython
 bleach==3.1.4             # via nbconvert
-blessed==1.17.4           # via enlighten, libratom
+blessed==1.17.5           # via enlighten, libratom
 blis==0.4.1               # via libratom, spacy, thinc
 catalogue==1.0.0          # via libratom, spacy, thinc
-certifi==2019.11.28       # via libratom, requests
+certifi==2020.4.5.1       # via libratom, requests
 chardet==3.0.4            # via libratom, requests
 click-log==0.3.2          # via libratom
-click==7.1.1              # via click-log, libratom
+click==7.1.2              # via click-log, libratom
 cymem==2.0.3              # via libratom, preshed, spacy, thinc
 decorator==4.4.2          # via ipython, traitlets
 defusedxml==0.6.0         # via nbconvert
 enlighten==1.5.1          # via libratom
 entrypoints==0.3          # via nbconvert
 future==0.18.2            # via libratom, treelib
-humanfriendly==8.1        # via libratom
+humanfriendly==8.2        # via libratom
 idna==2.9                 # via libratom, requests
-importlib-metadata==1.6.0  # via catalogue, jsonschema, libratom
+importlib-metadata==1.6.0  # via libratom
 ipykernel==5.2.1          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.13.0           # via ipykernel, ipywidgets
@@ -36,19 +36,19 @@ jupyter-core==4.6.3       # via jupyter-client, nbconvert, nbformat, notebook
 jupyterlab-server==1.1.1  # via jupyterlab
 jupyterlab==2.1.0         # via -r requirements.in
 libpff-python-ratom==20190725  # via libratom
-libratom==0.4.1           # via -r requirements.in
+libratom==0.4.2           # via -r requirements.in
 markupsafe==1.1.1         # via jinja2
 mistune==0.8.4            # via nbconvert
 murmurhash==1.0.2         # via libratom, preshed, spacy, thinc
 nbconvert==5.6.1          # via notebook
 nbformat==5.0.6           # via ipywidgets, nbconvert, notebook
 notebook==6.0.3           # via jupyterlab, jupyterlab-server, widgetsnbextension
-numpy==1.18.2             # via blis, libratom, pandas, spacy, thinc
+numpy==1.18.3             # via blis, libratom, pandas, spacy, thinc
 packaging==20.3           # via libratom
 pandas==1.0.3             # via -r requirements.in
 pandocfilters==1.4.2      # via nbconvert
 parso==0.7.0              # via jedi
-pbr==5.4.4                # via libratom
+pbr==5.4.5                # via libratom
 pexpect==4.8.0            # via ipython
 pickleshare==0.7.5        # via ipython
 plac==1.1.3               # via libratom, spacy, thinc
@@ -58,7 +58,7 @@ prompt-toolkit==3.0.5     # via ipython
 psutil==5.7.0             # via libratom
 ptyprocess==0.6.0         # via pexpect, terminado
 pygments==2.6.1           # via ipython, nbconvert
-pyparsing==2.4.6          # via libratom, packaging
+pyparsing==2.4.7          # via libratom, packaging
 pyrsistent==0.16.0        # via jsonschema, libratom
 python-dateutil==2.8.1    # via jupyter-client, pandas
 pytz==2019.3              # via pandas
@@ -67,17 +67,17 @@ requests==2.23.0          # via jupyterlab-server, libratom, spacy
 send2trash==1.5.0         # via notebook
 six==1.14.0               # via bleach, blessed, jsonschema, libratom, packaging, pyrsistent, python-dateutil, traitlets
 spacy==2.2.4              # via -r requirements.in, libratom
-sqlalchemy==1.3.15        # via -r requirements.in, libratom
+sqlalchemy==1.3.16        # via -r requirements.in, libratom
 srsly==1.0.2              # via libratom, spacy, thinc
 tabulate==0.8.7           # via libratom
 terminado==0.8.3          # via notebook
 testpath==0.4.4           # via nbconvert
 thinc==7.4.0              # via libratom, spacy
 tornado==6.0.4            # via ipykernel, jupyter-client, jupyterlab, notebook, terminado
-tqdm==4.44.1              # via -r requirements.in, libratom, spacy, thinc
+tqdm==4.45.0              # via -r requirements.in, libratom, spacy, thinc
 traitlets==4.3.3          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook
 treelib==1.6.1            # via libratom
-urllib3==1.25.8           # via libratom, requests
+urllib3==1.25.9           # via libratom, requests
 wasabi==0.6.0             # via libratom, spacy, thinc
 wcwidth==0.1.9            # via blessed, libratom, prompt-toolkit
 webencodings==0.5.1       # via bleach
