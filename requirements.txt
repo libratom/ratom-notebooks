@@ -23,7 +23,7 @@ entrypoints==0.3          # via nbconvert
 future==0.18.2            # via libratom, treelib
 humanfriendly==8.2        # via libratom
 idna==2.10                # via libratom, requests
-importlib-metadata==1.7.0  # via catalogue, jsonschema, libratom
+importlib-metadata==1.7.0  # via libratom
 ipykernel==5.3.4          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.16.1           # via ipykernel, ipywidgets
@@ -63,7 +63,7 @@ pyparsing==2.4.7          # via libratom, packaging
 pyrsistent==0.16.0        # via jsonschema, libratom
 python-dateutil==2.8.1    # via jupyter-client, pandas
 pytz==2020.1              # via pandas
-pyzmq==19.0.1             # via jupyter-client, notebook
+pyzmq==19.0.2             # via jupyter-client, notebook
 requests==2.24.0          # via jupyterlab-server, libratom, spacy
 send2trash==1.5.0         # via notebook
 six==1.15.0               # via bleach, blessed, jsonschema, libratom, packaging, pyrsistent, python-dateutil, traitlets
