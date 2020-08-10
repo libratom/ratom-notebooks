@@ -4,6 +4,7 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
+argon2-cffi==20.1.0       # via notebook
 attrs==19.3.0             # via jsonschema, libratom
 backcall==0.2.0           # via ipython
 beautifulsoup4==4.9.1     # via libratom
@@ -12,6 +13,7 @@ blessed==1.17.8           # via enlighten, libratom
 blis==0.4.1               # via libratom, spacy, thinc
 catalogue==1.0.0          # via libratom, spacy, thinc
 certifi==2020.6.20        # via libratom, requests
+cffi==1.14.1              # via argon2-cffi
 chardet==3.0.4            # via libratom, requests
 click-log==0.3.2          # via libratom
 click==7.1.2              # via click-log, libratom
@@ -23,7 +25,7 @@ entrypoints==0.3          # via nbconvert
 future==0.18.2            # via libratom, treelib
 humanfriendly==8.2        # via libratom
 idna==2.10                # via libratom, requests
-importlib-metadata==1.7.0  # via catalogue, jsonschema, libratom
+importlib-metadata==1.7.0  # via libratom
 ipykernel==5.3.4          # via ipywidgets, notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.16.1           # via ipykernel, ipywidgets
@@ -43,7 +45,7 @@ mistune==0.8.4            # via nbconvert
 murmurhash==1.0.2         # via libratom, preshed, spacy, thinc
 nbconvert==5.6.1          # via notebook
 nbformat==5.0.7           # via ipywidgets, nbconvert, notebook
-notebook==6.0.3           # via jupyterlab, jupyterlab-server, widgetsnbextension
+notebook==6.1.1           # via jupyterlab, jupyterlab-server, widgetsnbextension
 numpy==1.19.0             # via blis, libratom, pandas, spacy, thinc
 packaging==20.4           # via bleach, libratom
 pandas==1.0.5             # via -r requirements.in
@@ -58,6 +60,7 @@ prometheus-client==0.8.0  # via notebook
 prompt-toolkit==3.0.5     # via ipython
 psutil==5.7.0             # via libratom
 ptyprocess==0.6.0         # via pexpect, terminado
+pycparser==2.20           # via cffi
 pygments==2.6.1           # via ipython, nbconvert
 pyparsing==2.4.7          # via libratom, packaging
 pyrsistent==0.16.0        # via jsonschema, libratom
@@ -66,7 +69,7 @@ pytz==2020.1              # via pandas
 pyzmq==19.0.1             # via jupyter-client, notebook
 requests==2.24.0          # via jupyterlab-server, libratom, spacy
 send2trash==1.5.0         # via notebook
-six==1.15.0               # via bleach, blessed, jsonschema, libratom, packaging, pyrsistent, python-dateutil, traitlets
+six==1.15.0               # via argon2-cffi, bleach, blessed, jsonschema, libratom, packaging, pyrsistent, python-dateutil, traitlets
 soupsieve==2.0.1          # via beautifulsoup4, libratom
 spacy==2.3.1              # via -r requirements.in, libratom
 sqlalchemy==1.3.18        # via -r requirements.in, libratom
