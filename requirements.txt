@@ -46,7 +46,7 @@ markupsafe==1.1.1         # via jinja2
 mistune==0.8.4            # via nbconvert
 murmurhash==1.0.2         # via libratom, preshed, spacy, thinc
 nbclient==0.5.0           # via nbconvert
-nbconvert==6.0.1          # via notebook
+nbconvert==6.0.2          # via notebook
 nbformat==5.0.7           # via ipywidgets, nbclient, nbconvert, notebook
 nest-asyncio==1.4.0       # via nbclient
 notebook==6.1.4           # via jupyterlab, jupyterlab-server, widgetsnbextension
