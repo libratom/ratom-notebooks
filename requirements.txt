@@ -9,7 +9,7 @@ async-generator==1.10     # via nbclient
 attrs==19.3.0             # via jsonschema, libratom
 backcall==0.2.0           # via ipython
 beautifulsoup4==4.9.1     # via libratom
-bleach==3.1.5             # via nbconvert
+bleach==3.2.1             # via nbconvert
 blessed==1.17.8           # via enlighten, libratom
 blis==0.4.1               # via libratom, spacy, thinc
 catalogue==1.0.0          # via libratom, spacy, thinc
