@@ -7,3 +7,4 @@ jupyterlab
 ipywidgets
 matplotlib
 sklearn
+terminado==0.8.3        # for mybinder.org
