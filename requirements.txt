@@ -56,7 +56,7 @@ nest-asyncio==1.4.1       # via nbclient
 notebook==6.1.4           # via jupyterlab, jupyterlab-server, widgetsnbextension
 numpy==1.19.0             # via blis, libratom, matplotlib, pandas, scikit-learn, scipy, spacy, thinc
 packaging==20.4           # via bleach, libratom
-pandas==1.1.2             # via -r requirements.in
+pandas==1.1.3             # via -r requirements.in
 pandocfilters==1.4.2      # via nbconvert
 parso==0.7.1              # via jedi
 pbr==5.4.5                # via libratom
