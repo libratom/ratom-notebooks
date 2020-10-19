@@ -94,7 +94,7 @@ thinc==7.4.1              # via libratom, spacy
 threadpoolctl==2.1.0      # via scikit-learn
 tornado==6.0.4            # via ipykernel, jupyter-client, jupyterlab, notebook, terminado
 tqdm==4.47.0              # via -r requirements.in, libratom, spacy, thinc
-traitlets==5.0.4          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbclient, nbconvert, nbformat, notebook
+traitlets==5.0.5          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbclient, nbconvert, nbformat, notebook
 treelib==1.6.1            # via libratom
 urllib3==1.25.9           # via libratom, requests
 wasabi==0.7.0             # via libratom, spacy, thinc
