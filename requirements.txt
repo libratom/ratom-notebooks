@@ -34,7 +34,7 @@ ipython==7.18.1           # via ipykernel, ipywidgets
 ipywidgets==7.5.1         # via -r requirements.in
 jedi==0.17.2              # via ipython
 jinja2==2.11.2            # via jupyterlab, jupyterlab-server, nbconvert, notebook
-joblib==0.16.0            # via scikit-learn
+joblib==0.17.0            # via scikit-learn
 json5==0.9.5              # via jupyterlab-server
 jsonschema==3.2.0         # via jupyterlab-server, libratom, nbformat
 jupyter-client==6.1.7     # via ipykernel, nbclient, notebook
