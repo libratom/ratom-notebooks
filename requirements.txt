@@ -13,7 +13,7 @@ bleach==3.2.1             # via nbconvert
 blessed==1.17.11          # via enlighten, libratom
 blis==0.4.1               # via libratom, spacy, thinc
 catalogue==1.0.0          # via libratom, spacy, thinc
-certifi==2020.6.20        # via libratom, matplotlib, requests
+certifi==2020.6.20        # via libratom, requests
 cffi==1.14.3              # via argon2-cffi
 chardet==3.0.4            # via libratom, requests
 click-log==0.3.2          # via libratom
@@ -45,7 +45,7 @@ kiwisolver==1.3.1         # via matplotlib
 libpff-python-ratom==20200808  # via libratom
 libratom==0.4.4           # via -r requirements.in
 markupsafe==1.1.1         # via jinja2
-matplotlib==3.3.2         # via -r requirements.in
+matplotlib==3.3.3         # via -r requirements.in
 mistune==0.8.4            # via nbconvert
 murmurhash==1.0.2         # via libratom, preshed, spacy, thinc
 nbclient==0.5.1           # via nbconvert
