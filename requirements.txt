@@ -37,7 +37,7 @@ joblib==0.17.0            # via scikit-learn
 json5==0.9.5              # via jupyterlab-server
 jsonschema==3.2.0         # via jupyterlab-server, libratom, nbformat
 jupyter-client==6.1.7     # via ipykernel, nbclient, notebook
-jupyter-core==4.6.3       # via jupyter-client, nbconvert, nbformat, notebook
+jupyter-core==4.7.0       # via jupyter-client, nbconvert, nbformat, notebook
 jupyterlab-pygments==0.1.2  # via nbconvert
 jupyterlab-server==1.2.0  # via jupyterlab
 jupyterlab==2.2.9         # via -r requirements.in
