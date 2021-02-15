@@ -4,102 +4,336 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-argon2-cffi==20.1.0       # via notebook
-async-generator==1.10     # via nbclient
-attrs==20.2.0             # via jsonschema, libratom
-backcall==0.2.0           # via ipython
-beautifulsoup4==4.9.3     # via libratom
-bleach==3.2.1             # via nbconvert
-blessed==1.17.11          # via enlighten, libratom
-blis==0.4.1               # via libratom, spacy, thinc
-catalogue==1.0.0          # via libratom, spacy, thinc
-certifi==2020.6.20        # via libratom, matplotlib, requests
-cffi==1.14.3              # via argon2-cffi
-chardet==3.0.4            # via libratom, requests
-click-log==0.3.2          # via libratom
-click==7.1.2              # via click-log, libratom
-cycler==0.10.0            # via matplotlib
-cymem==2.0.3              # via libratom, preshed, spacy, thinc
-decorator==4.4.2          # via ipython
-defusedxml==0.6.0         # via nbconvert
-enlighten==1.6.2          # via libratom
-entrypoints==0.3          # via nbconvert
-future==0.18.2            # via libratom, treelib
-humanfriendly==8.2        # via libratom
-idna==2.10                # via libratom, requests
-ipykernel==5.3.4          # via ipywidgets, notebook
-ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
-ipython==7.19.0           # via ipykernel, ipywidgets
-ipywidgets==7.5.1         # via -r requirements.in
-jedi==0.17.2              # via ipython
-jinja2==2.11.2            # via jupyterlab, jupyterlab-server, nbconvert, notebook
-joblib==0.17.0            # via scikit-learn
-json5==0.9.5              # via jupyterlab-server
-jsonschema==3.2.0         # via jupyterlab-server, libratom, nbformat
-jupyter-client==6.1.7     # via ipykernel, nbclient, notebook
-jupyter-core==4.6.3       # via jupyter-client, nbconvert, nbformat, notebook
-jupyterlab-pygments==0.1.2  # via nbconvert
-jupyterlab-server==1.2.0  # via jupyterlab
-jupyterlab==2.2.9         # via -r requirements.in
-kiwisolver==1.3.1         # via matplotlib
-libpff-python-ratom==20200808  # via libratom
-libratom==0.4.4           # via -r requirements.in
-markupsafe==1.1.1         # via jinja2
-matplotlib==3.3.2         # via -r requirements.in
-mistune==0.8.4            # via nbconvert
-murmurhash==1.0.2         # via libratom, preshed, spacy, thinc
-nbclient==0.5.1           # via nbconvert
-nbconvert==6.0.7          # via notebook
-nbformat==5.0.8           # via ipywidgets, nbclient, nbconvert, notebook
-nest-asyncio==1.4.2       # via nbclient
-notebook==6.1.5           # via jupyterlab, jupyterlab-server, widgetsnbextension
-numpy==1.19.2             # via blis, libratom, matplotlib, pandas, scikit-learn, scipy, spacy, thinc
-packaging==20.4           # via bleach, libratom
-pandas==1.1.4             # via -r requirements.in
-pandocfilters==1.4.3      # via nbconvert
-parso==0.7.1              # via jedi
-pbr==5.5.1                # via libratom
-pexpect==4.8.0            # via ipython
-pickleshare==0.7.5        # via ipython
-pillow==8.0.1             # via matplotlib
-plac==1.1.3               # via libratom, spacy, thinc
-preshed==3.0.2            # via libratom, spacy, thinc
-prometheus-client==0.8.0  # via notebook
-prompt-toolkit==3.0.8     # via ipython
-psutil==5.7.3             # via libratom
-ptyprocess==0.6.0         # via pexpect, terminado
-pycparser==2.20           # via cffi
-pygments==2.7.2           # via ipython, jupyterlab-pygments, nbconvert
-pyparsing==2.4.7          # via libratom, matplotlib, packaging
-pyrsistent==0.17.3        # via jsonschema, libratom
-python-dateutil==2.8.1    # via jupyter-client, matplotlib, pandas
-pytz==2020.4              # via pandas
-pyzmq==19.0.2             # via jupyter-client, notebook
-requests==2.24.0          # via jupyterlab-server, libratom, spacy
-scikit-learn==0.23.2      # via sklearn
-scipy==1.5.4              # via scikit-learn
-send2trash==1.5.0         # via notebook
-six==1.15.0               # via argon2-cffi, bleach, blessed, cycler, jsonschema, libratom, packaging, python-dateutil
-sklearn==0.0              # via -r requirements.in
-soupsieve==2.0.1          # via beautifulsoup4, libratom
-spacy==2.3.2              # via -r requirements.in, libratom
-sqlalchemy==1.3.20        # via -r requirements.in, libratom
-srsly==1.0.2              # via libratom, spacy, thinc
-striprtf==0.0.11          # via libratom
-tabulate==0.8.7           # via libratom
-terminado==0.8.3          # via -r requirements.in, notebook
-testpath==0.4.4           # via nbconvert
-thinc==7.4.1              # via libratom, spacy
-threadpoolctl==2.1.0      # via scikit-learn
-tornado==6.1              # via ipykernel, jupyter-client, jupyterlab, notebook, terminado
-tqdm==4.51.0              # via -r requirements.in, libratom, spacy, thinc
-traitlets==5.0.5          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbclient, nbconvert, nbformat, notebook
-treelib==1.6.1            # via libratom
-urllib3==1.25.11          # via libratom, requests
-wasabi==0.8.0             # via libratom, spacy, thinc
-wcwidth==0.2.5            # via blessed, libratom, prompt-toolkit
-webencodings==0.5.1       # via bleach
-widgetsnbextension==3.5.1  # via ipywidgets
+argon2-cffi==20.1.0
+    # via notebook
+async-generator==1.10
+    # via nbclient
+attrs==20.2.0
+    # via
+    #   jsonschema
+    #   libratom
+backcall==0.2.0
+    # via ipython
+beautifulsoup4==4.9.3
+    # via libratom
+bleach==3.2.1
+    # via nbconvert
+blessed==1.17.11
+    # via
+    #   enlighten
+    #   libratom
+blis==0.4.1
+    # via
+    #   libratom
+    #   spacy
+    #   thinc
+catalogue==1.0.0
+    # via
+    #   libratom
+    #   spacy
+    #   thinc
+certifi==2020.6.20
+    # via
+    #   libratom
+    #   matplotlib
+    #   requests
+cffi==1.14.3
+    # via argon2-cffi
+chardet==3.0.4
+    # via
+    #   libratom
+    #   requests
+click-log==0.3.2
+    # via libratom
+click==7.1.2
+    # via
+    #   click-log
+    #   libratom
+cycler==0.10.0
+    # via matplotlib
+cymem==2.0.3
+    # via
+    #   libratom
+    #   preshed
+    #   spacy
+    #   thinc
+decorator==4.4.2
+    # via ipython
+defusedxml==0.6.0
+    # via nbconvert
+enlighten==1.6.2
+    # via libratom
+entrypoints==0.3
+    # via nbconvert
+future==0.18.2
+    # via
+    #   libratom
+    #   treelib
+humanfriendly==8.2
+    # via libratom
+idna==2.10
+    # via
+    #   libratom
+    #   requests
+ipykernel==5.3.4
+    # via
+    #   ipywidgets
+    #   notebook
+ipython-genutils==0.2.0
+    # via
+    #   nbformat
+    #   notebook
+    #   traitlets
+ipython==7.19.0
+    # via
+    #   ipykernel
+    #   ipywidgets
+ipywidgets==7.5.1
+    # via -r requirements.in
+jedi==0.17.2
+    # via ipython
+jinja2==2.11.2
+    # via
+    #   jupyterlab
+    #   jupyterlab-server
+    #   nbconvert
+    #   notebook
+joblib==0.17.0
+    # via scikit-learn
+json5==0.9.5
+    # via jupyterlab-server
+jsonschema==3.2.0
+    # via
+    #   jupyterlab-server
+    #   libratom
+    #   nbformat
+jupyter-client==6.1.7
+    # via
+    #   ipykernel
+    #   nbclient
+    #   notebook
+jupyter-core==4.6.3
+    # via
+    #   jupyter-client
+    #   nbconvert
+    #   nbformat
+    #   notebook
+jupyterlab-pygments==0.1.2
+    # via nbconvert
+jupyterlab-server==1.2.0
+    # via jupyterlab
+jupyterlab==2.2.9
+    # via -r requirements.in
+kiwisolver==1.3.1
+    # via matplotlib
+libpff-python-ratom==20200808
+    # via libratom
+libratom==0.4.4
+    # via -r requirements.in
+markupsafe==1.1.1
+    # via jinja2
+matplotlib==3.3.2
+    # via -r requirements.in
+mistune==0.8.4
+    # via nbconvert
+murmurhash==1.0.2
+    # via
+    #   libratom
+    #   preshed
+    #   spacy
+    #   thinc
+nbclient==0.5.1
+    # via nbconvert
+nbconvert==6.0.7
+    # via notebook
+nbformat==5.0.8
+    # via
+    #   ipywidgets
+    #   nbclient
+    #   nbconvert
+    #   notebook
+nest-asyncio==1.4.2
+    # via nbclient
+notebook==6.1.5
+    # via
+    #   jupyterlab
+    #   jupyterlab-server
+    #   widgetsnbextension
+numpy==1.19.2
+    # via
+    #   blis
+    #   libratom
+    #   matplotlib
+    #   pandas
+    #   scikit-learn
+    #   scipy
+    #   spacy
+    #   thinc
+packaging==20.4
+    # via
+    #   bleach
+    #   libratom
+pandas==1.2.2
+    # via -r requirements.in
+pandocfilters==1.4.3
+    # via nbconvert
+parso==0.7.1
+    # via jedi
+pbr==5.5.1
+    # via libratom
+pexpect==4.8.0
+    # via ipython
+pickleshare==0.7.5
+    # via ipython
+pillow==8.0.1
+    # via matplotlib
+plac==1.1.3
+    # via
+    #   libratom
+    #   spacy
+    #   thinc
+preshed==3.0.2
+    # via
+    #   libratom
+    #   spacy
+    #   thinc
+prometheus-client==0.8.0
+    # via notebook
+prompt-toolkit==3.0.8
+    # via ipython
+psutil==5.7.3
+    # via libratom
+ptyprocess==0.6.0
+    # via
+    #   pexpect
+    #   terminado
+pycparser==2.20
+    # via cffi
+pygments==2.7.2
+    # via
+    #   ipython
+    #   jupyterlab-pygments
+    #   nbconvert
+pyparsing==2.4.7
+    # via
+    #   libratom
+    #   matplotlib
+    #   packaging
+pyrsistent==0.17.3
+    # via
+    #   jsonschema
+    #   libratom
+python-dateutil==2.8.1
+    # via
+    #   jupyter-client
+    #   matplotlib
+    #   pandas
+pytz==2020.4
+    # via pandas
+pyzmq==19.0.2
+    # via
+    #   jupyter-client
+    #   notebook
+requests==2.24.0
+    # via
+    #   jupyterlab-server
+    #   libratom
+    #   spacy
+scikit-learn==0.23.2
+    # via sklearn
+scipy==1.5.4
+    # via scikit-learn
+send2trash==1.5.0
+    # via notebook
+six==1.15.0
+    # via
+    #   argon2-cffi
+    #   bleach
+    #   blessed
+    #   cycler
+    #   jsonschema
+    #   libratom
+    #   packaging
+    #   python-dateutil
+sklearn==0.0
+    # via -r requirements.in
+soupsieve==2.0.1
+    # via
+    #   beautifulsoup4
+    #   libratom
+spacy==2.3.2
+    # via
+    #   -r requirements.in
+    #   libratom
+sqlalchemy==1.3.20
+    # via
+    #   -r requirements.in
+    #   libratom
+srsly==1.0.2
+    # via
+    #   libratom
+    #   spacy
+    #   thinc
+striprtf==0.0.11
+    # via libratom
+tabulate==0.8.7
+    # via libratom
+terminado==0.8.3
+    # via
+    #   -r requirements.in
+    #   notebook
+testpath==0.4.4
+    # via nbconvert
+thinc==7.4.1
+    # via
+    #   libratom
+    #   spacy
+threadpoolctl==2.1.0
+    # via scikit-learn
+tornado==6.1
+    # via
+    #   ipykernel
+    #   jupyter-client
+    #   jupyterlab
+    #   notebook
+    #   terminado
+tqdm==4.51.0
+    # via
+    #   -r requirements.in
+    #   libratom
+    #   spacy
+    #   thinc
+traitlets==5.0.5
+    # via
+    #   ipykernel
+    #   ipython
+    #   ipywidgets
+    #   jupyter-client
+    #   jupyter-core
+    #   nbclient
+    #   nbconvert
+    #   nbformat
+    #   notebook
+treelib==1.6.1
+    # via libratom
+urllib3==1.25.11
+    # via
+    #   libratom
+    #   requests
+wasabi==0.8.0
+    # via
+    #   libratom
+    #   spacy
+    #   thinc
+wcwidth==0.2.5
+    # via
+    #   blessed
+    #   libratom
+    #   prompt-toolkit
+webencodings==0.5.1
+    # via bleach
+widgetsnbextension==3.5.1
+    # via ipywidgets
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
