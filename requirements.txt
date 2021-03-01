@@ -167,7 +167,7 @@ murmurhash==1.0.5
     #   thinc
 nbclassic==0.2.6
     # via jupyterlab
-nbclient==0.5.2
+nbclient==0.5.3
     # via nbconvert
 nbconvert==6.0.7
     # via
