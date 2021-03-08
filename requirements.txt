@@ -245,7 +245,7 @@ pydantic==1.7.3
     #   libratom
     #   spacy
     #   thinc
-pygments==2.8.0
+pygments==2.8.1
     # via
     #   ipython
     #   jupyterlab-pygments
