@@ -64,7 +64,7 @@ cymem==2.0.5
     #   thinc
 decorator==4.4.2
     # via ipython
-defusedxml==0.6.0
+defusedxml==0.7.1
     # via nbconvert
 enlighten==1.7.2
     # via libratom
