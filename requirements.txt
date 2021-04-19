@@ -203,7 +203,7 @@ packaging==20.9
     #   jupyterlab-server
     #   libratom
     #   spacy
-pandas==1.2.2
+pandas==1.2.4
     # via -r requirements.in
 pandocfilters==1.4.3
     # via nbconvert
