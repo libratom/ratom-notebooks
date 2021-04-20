@@ -22,7 +22,9 @@ In the **binder** folder, you’ll find three Jupyter notebooks:
 
 **message\_viewer.ipynb**, which examines the contents of a PST file.
 
-**entities.ipynb**, which identifies all of the entities present in every message body and commits them to a sqlite3 database. Note: this is intended to be run on a local or dedicated hosted instance; running this notebook in mybinder may reduce performance.
+**entities.ipynb**, which identifies all of the entities present in every message body and commits them to a sqlite3 database. Note: this is intended to be run on a local or dedicated hosted instance; running this notebook in mybinder may be slow.
+
+After clicking on the mybinder link above, you'll see a loading page; loading may take several minutes. Once the environment has started, you'll be taken to a directory listing where you can click on the desired .ipynb file to view it in a new tab. In the menu within this tab, click on Cell -> Run All to run the entire notebook. Individual code cells are labeled with their purpose and intended output.
 
 ## Using ratom-notebooks (advanced)
 
