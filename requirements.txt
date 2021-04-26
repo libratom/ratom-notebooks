@@ -144,7 +144,7 @@ jupyter-packaging==0.9.1
     # via
     #   jupyter-server
     #   jupyterlab
-jupyter-server==1.6.2
+jupyter-server==1.6.4
     # via
     #   jupyterlab
     #   jupyterlab-server
