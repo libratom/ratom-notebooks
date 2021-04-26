@@ -140,7 +140,7 @@ jupyter-core==4.7.1
     #   nbconvert
     #   nbformat
     #   notebook
-jupyter-packaging==0.9.1
+jupyter-packaging==0.9.2
     # via
     #   jupyter-server
     #   jupyterlab
