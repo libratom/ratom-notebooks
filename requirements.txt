@@ -297,7 +297,7 @@ requests==2.25.1
     #   libratom
     #   smart-open
     #   spacy
-scikit-learn==0.24.1
+scikit-learn==0.24.2
     # via sklearn
 scipy==1.6.2
     # via scikit-learn
