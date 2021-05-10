@@ -167,7 +167,7 @@ markupsafe==1.1.1
     # via
     #   jinja2
     #   libratom
-matplotlib==3.4.1
+matplotlib==3.4.2
     # via -r requirements.in
 mistune==0.8.4
     # via nbconvert
