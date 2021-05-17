@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-anyio==2.2.0
+anyio==3.0.1
     # via jupyter-server
 argon2-cffi==20.1.0
     # via
@@ -141,10 +141,8 @@ jupyter-core==4.7.1
     #   nbformat
     #   notebook
 jupyter-packaging==0.9.1
-    # via
-    #   jupyter-server
-    #   jupyterlab
-jupyter-server==1.6.2
+    # via jupyterlab
+jupyter-server==1.7.0
     # via
     #   jupyterlab
     #   jupyterlab-server
@@ -314,6 +312,7 @@ six==1.15.0
     #   jsonschema
     #   libratom
     #   python-dateutil
+    #   websocket-client
 sklearn==0.0
     # via -r requirements.in
 smart-open==3.0.0
@@ -410,6 +409,8 @@ wcwidth==0.2.5
     #   prompt-toolkit
 webencodings==0.5.1
     # via bleach
+websocket-client==0.59.0
+    # via jupyter-server
 wheel==0.36.2
     # via jupyter-packaging
 widgetsnbextension==3.5.1
