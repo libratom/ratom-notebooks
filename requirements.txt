@@ -89,7 +89,7 @@ idna==2.10
     #   anyio
     #   libratom
     #   requests
-ipykernel==5.5.3
+ipykernel==5.5.5
     # via
     #   ipywidgets
     #   notebook
