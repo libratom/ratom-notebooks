@@ -151,7 +151,7 @@ jupyter-server==1.6.2
     #   nbclassic
 jupyterlab-pygments==0.1.2
     # via nbconvert
-jupyterlab-server==2.4.0
+jupyterlab-server==2.5.2
     # via jupyterlab
 jupyterlab-widgets==1.0.0
     # via ipywidgets
