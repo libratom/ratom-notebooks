@@ -30,10 +30,7 @@ updates:
     - 8.1.2
     - 8.2.0
   - dependency-name: terminado
-    versions:
-    - 0.9.2
-    - 0.9.3
-    - 0.9.4
+    # Ignore all terminado updates while it's version pegged in requirements.in
   - dependency-name: ipython
     versions:
     - 7.21.0
