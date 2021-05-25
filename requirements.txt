@@ -341,7 +341,7 @@ striprtf==0.0.13
     # via libratom
 tabulate==0.8.9
     # via libratom
-terminado==0.8.3
+terminado==0.10.0
     # via
     #   -r requirements.in
     #   jupyter-server
