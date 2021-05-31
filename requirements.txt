@@ -280,7 +280,7 @@ pytz==2021.1
     # via
     #   babel
     #   pandas
-pyzmq==22.0.3
+pyzmq==22.1.0
     # via
     #   jupyter-client
     #   jupyter-server
