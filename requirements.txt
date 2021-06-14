@@ -403,7 +403,7 @@ wcwidth==0.2.5
     #   prompt-toolkit
 webencodings==0.5.1
     # via bleach
-websocket-client==1.0.1
+websocket-client==1.1.0
     # via jupyter-server
 widgetsnbextension==3.5.1
     # via ipywidgets
