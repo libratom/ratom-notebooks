@@ -242,7 +242,7 @@ prometheus-client==0.11.0
     # via
     #   jupyter-server
     #   notebook
-prompt-toolkit==3.0.18
+prompt-toolkit==3.0.19
     # via ipython
 psutil==5.8.0
     # via libratom
