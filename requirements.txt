@@ -49,13 +49,13 @@ chardet==4.0.0
     # via
     #   libratom
     #   requests
-click-log==0.3.2
-    # via libratom
 click==7.1.2
     # via
     #   click-log
     #   libratom
     #   typer
+click-log==0.3.2
+    # via libratom
 cycler==0.10.0
     # via matplotlib
 cymem==2.0.5
@@ -91,17 +91,17 @@ ipykernel==5.5.5
     # via
     #   ipywidgets
     #   notebook
+ipython==7.24.1
+    # via
+    #   ipykernel
+    #   ipywidgets
+    #   jupyterlab
 ipython-genutils==0.2.0
     # via
     #   jupyter-server
     #   nbformat
     #   notebook
     #   traitlets
-ipython==7.24.1
-    # via
-    #   ipykernel
-    #   ipywidgets
-    #   jupyterlab
 ipywidgets==7.6.3
     # via -r requirements.in
 jedi==0.18.0
@@ -143,14 +143,14 @@ jupyter-server==1.8.0
     #   jupyterlab
     #   jupyterlab-server
     #   nbclassic
+jupyterlab==3.0.16
+    # via -r requirements.in
 jupyterlab-pygments==0.1.2
     # via nbconvert
 jupyterlab-server==2.6.0
     # via jupyterlab
 jupyterlab-widgets==1.0.0
     # via ipywidgets
-jupyterlab==3.0.16
-    # via -r requirements.in
 kiwisolver==1.3.1
     # via matplotlib
 libpff-python-ratom==20200808
@@ -161,10 +161,10 @@ markupsafe==2.0.1
     # via
     #   jinja2
     #   libratom
-matplotlib-inline==0.1.2
-    # via ipython
 matplotlib==3.4.2
     # via -r requirements.in
+matplotlib-inline==0.1.2
+    # via ipython
 mistune==0.8.4
     # via nbconvert
 murmurhash==1.0.5
@@ -177,7 +177,7 @@ nbclassic==0.3.1
     # via jupyterlab
 nbclient==0.5.3
     # via nbconvert
-nbconvert==6.0.7
+nbconvert==6.1.0
     # via
     #   jupyter-server
     #   notebook
@@ -320,14 +320,14 @@ soupsieve==2.2.1
     # via
     #   beautifulsoup4
     #   libratom
-spacy-legacy==3.0.5
-    # via
-    #   libratom
-    #   spacy
 spacy==3.0.6
     # via
     #   -r requirements.in
     #   libratom
+spacy-legacy==3.0.5
+    # via
+    #   libratom
+    #   spacy
 sqlalchemy==1.4.17
     # via
     #   -r requirements.in
