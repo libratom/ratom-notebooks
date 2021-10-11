@@ -147,7 +147,7 @@ jupyter-server==1.11.1
     #   jupyterlab
     #   jupyterlab-server
     #   nbclassic
-jupyterlab==3.1.14
+jupyterlab==3.1.18
     # via -r requirements.in
 jupyterlab-pygments==0.1.2
     # via nbconvert
