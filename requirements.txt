@@ -119,7 +119,7 @@ jinja2==3.0.1
     #   nbconvert
     #   notebook
     #   spacy
-joblib==1.0.1
+joblib==1.1.0
     # via scikit-learn
 json5==0.9.6
     # via jupyterlab-server
