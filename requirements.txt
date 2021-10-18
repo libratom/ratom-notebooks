@@ -62,7 +62,7 @@ cymem==2.0.5
     #   preshed
     #   spacy
     #   thinc
-debugpy==1.5.0
+debugpy==1.5.1
     # via ipykernel
 decorator==5.1.0
     # via ipython
