@@ -159,7 +159,7 @@ jupyterlab==3.3.2
     # via -r requirements.in
 jupyterlab-pygments==0.1.2
     # via nbconvert
-jupyterlab-server==2.10.3
+jupyterlab-server==2.11.2
     # via jupyterlab
 jupyterlab-widgets==1.0.2
     # via ipywidgets
