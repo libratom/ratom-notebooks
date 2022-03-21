@@ -83,7 +83,7 @@ entrypoints==0.4
     #   nbconvert
 executing==0.8.3
     # via stack-data
-fonttools==4.30.0
+fonttools==4.31.1
     # via matplotlib
 future==0.18.2
     # via
