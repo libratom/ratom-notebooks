@@ -191,7 +191,7 @@ murmurhash==1.0.6
     #   preshed
     #   spacy
     #   thinc
-nbclassic==0.3.6
+nbclassic==0.3.7
     # via jupyterlab
 nbclient==0.5.13
     # via nbconvert
