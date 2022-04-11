@@ -177,6 +177,7 @@ markupsafe==2.1.0
     # via
     #   jinja2
     #   libratom
+    #   nbconvert
 matplotlib==3.5.1
     # via -r requirements.in
 matplotlib-inline==0.1.3
@@ -195,7 +196,7 @@ nbclassic==0.3.6
     # via jupyterlab
 nbclient==0.5.13
     # via nbconvert
-nbconvert==6.4.4
+nbconvert==6.5.0
     # via
     #   jupyter-server
     #   notebook
@@ -236,6 +237,7 @@ packaging==21.3
     #   jupyterlab-server
     #   libratom
     #   matplotlib
+    #   nbconvert
     #   spacy
 pandas==1.4.1
     # via -r requirements.in
@@ -379,14 +381,14 @@ terminado==0.13.3
     #   -r requirements.in
     #   jupyter-server
     #   notebook
-testpath==0.6.0
-    # via nbconvert
 thinc==8.0.13
     # via
     #   libratom
     #   spacy
 threadpoolctl==3.1.0
     # via scikit-learn
+tinycss2==1.1.1
+    # via nbconvert
 tornado==6.1
     # via
     #   ipykernel
@@ -440,7 +442,9 @@ wcwidth==0.2.5
     #   libratom
     #   prompt-toolkit
 webencodings==0.5.1
-    # via bleach
+    # via
+    #   bleach
+    #   tinycss2
 websocket-client==1.3.1
     # via jupyter-server
 widgetsnbextension==3.5.2
