@@ -2,7 +2,7 @@
 
 # ratom-notebooks
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/libratom/ratom-notebooks/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/libratom/ratom-notebooks/main)
 
 A selection of Jupyter notebooks to demonstrate features of [libratom](https://github.com/libratom/libratom) and other utilities developed for the RATOM project.
 
@@ -12,7 +12,7 @@ A selection of Jupyter notebooks to demonstrate features of [libratom](https://g
 
 The simplest way to interact with these notebooks is via [**mybinder**](https://gke.mybinder.org/), which automatically builds an executable environment you can interact with from a web browser. The following link will generate an environment from this repository:
 
-[https://mybinder.org/v2/gh/libratom/ratom-notebooks/master](https://mybinder.org/v2/gh/libratom/ratom-notebooks/master)
+[https://mybinder.org/v2/gh/libratom/ratom-notebooks/main](https://mybinder.org/v2/gh/libratom/ratom-notebooks/main)
 
 Sample data from the redacted Enron email corpus will be automatically downloaded when this instance is created. You can view the sample files in the RevisedEDRMv1\_Complete folder that appears in the **Files** tab of the Jupyter instance.
 
