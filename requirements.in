@@ -8,3 +8,4 @@ ipywidgets
 matplotlib
 sklearn
 terminado
+prettytable

@@ -269,6 +269,8 @@ preshed==3.0.6
     #   libratom
     #   spacy
     #   thinc
+prettytable==3.3.0
+    # via -r requirements.in
 prometheus-client==0.14.1
     # via
     #   jupyter-server
@@ -442,6 +444,7 @@ wcwidth==0.2.5
     # via
     #   blessed
     #   libratom
+    #   prettytable
     #   prompt-toolkit
 webencodings==0.5.1
     # via
