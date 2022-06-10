@@ -16,13 +16,15 @@ The simplest way to interact with these notebooks is via [**mybinder**](https://
 
 Sample data from the redacted Enron email corpus will be automatically downloaded when this instance is created. You can view the sample files in the RevisedEDRMv1\_Complete folder that appears in the **Files** tab of the Jupyter instance.
 
-In the **binder** folder, you’ll find three Jupyter notebooks:
+In the **binder** folder, you’ll find the following Jupyter notebooks:
 
 **pst\_walk.ipynb**, a simple example demonstrating walking a PST file using libpff to identify the number of messages present.
 
 **message\_viewer.ipynb**, which examines the contents of a PST file.
 
 **entities.ipynb**, which identifies all of the entities present in every message body and commits them to a sqlite3 database. Note: this is intended to be run on a local or dedicated hosted instance; running this notebook in mybinder may be slow.
+
+**header_fields.ipynb**, which shows how to extract and query individual header fields from messages.
 
 After clicking on the mybinder link above, you'll see a loading page; loading may take several minutes. Once the environment has started, you'll be taken to a directory listing where you can click on the desired .ipynb file to view it in a new tab. In the menu within this tab, click on Cell -> Run All to run the entire notebook. Individual code cells are labeled with their purpose and intended output.
 
