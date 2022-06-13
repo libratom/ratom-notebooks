@@ -166,7 +166,7 @@ jupyterlab-server==2.14.0
     # via jupyterlab
 jupyterlab-widgets==1.1.0
     # via ipywidgets
-kiwisolver==1.4.2
+kiwisolver==1.4.3
     # via matplotlib
 langcodes==3.3.0
     # via
