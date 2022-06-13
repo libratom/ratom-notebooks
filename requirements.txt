@@ -103,7 +103,7 @@ idna==3.3
     #   requests
 importlib-metadata==4.11.4
     # via jupyterlab-server
-ipykernel==6.13.1
+ipykernel==6.14.0
     # via
     #   ipywidgets
     #   notebook
