@@ -406,7 +406,7 @@ tqdm==4.64.0
     #   -r requirements.in
     #   libratom
     #   spacy
-traitlets==5.2.2.post1
+traitlets==5.3.0
     # via
     #   ipykernel
     #   ipython
