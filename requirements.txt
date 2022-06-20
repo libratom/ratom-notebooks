@@ -18,7 +18,7 @@ attrs==21.4.0
     # via
     #   jsonschema
     #   libratom
-babel==2.10.1
+babel==2.10.3
     # via jupyterlab-server
 backcall==0.2.0
     # via ipython
