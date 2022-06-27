@@ -116,7 +116,7 @@ ipython-genutils==0.2.0
     # via
     #   ipywidgets
     #   notebook
-ipywidgets==7.7.0
+ipywidgets==7.7.1
     # via -r requirements.in
 jedi==0.18.1
     # via ipython
@@ -205,7 +205,6 @@ nbconvert==6.5.0
     #   notebook
 nbformat==5.4.0
     # via
-    #   ipywidgets
     #   jupyter-server
     #   nbclient
     #   nbconvert
