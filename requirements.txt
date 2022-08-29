@@ -374,7 +374,7 @@ srsly==2.4.3
     #   libratom
     #   spacy
     #   thinc
-stack-data==0.2.0
+stack-data==0.5.0
     # via ipython
 striprtf==0.0.20
     # via libratom
