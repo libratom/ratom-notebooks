@@ -103,7 +103,7 @@ idna==3.3
     #   requests
 importlib-metadata==4.11.4
     # via jupyterlab-server
-ipykernel==6.13.1
+ipykernel==6.15.2
     # via
     #   ipywidgets
     #   notebook
@@ -318,6 +318,7 @@ pytz==2022.1
     #   pandas
 pyzmq==23.1.0
     # via
+    #   ipykernel
     #   jupyter-client
     #   jupyter-server
     #   notebook
