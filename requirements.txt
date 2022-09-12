@@ -164,7 +164,7 @@ jupyterlab-pygments==0.2.2
     # via nbconvert
 jupyterlab-server==2.14.0
     # via jupyterlab
-jupyterlab-widgets==1.1.0
+jupyterlab-widgets==3.0.3
     # via ipywidgets
 kiwisolver==1.4.2
     # via matplotlib
