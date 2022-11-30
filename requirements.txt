@@ -137,6 +137,8 @@ jinja2==3.1.2
     #   nbconvert
     #   notebook
     #   spacy
+joblib==1.2.0
+    # via scikit-learn
 json5==0.9.10
     # via jupyterlab-server
 jsonschema==4.17.1
@@ -239,6 +241,8 @@ numpy==1.23.5
     #   libratom
     #   matplotlib
     #   pandas
+    #   scikit-learn
+    #   scipy
     #   spacy
     #   thinc
 packaging==21.3
@@ -341,6 +345,10 @@ requests==2.28.1
     #   jupyterlab-server
     #   libratom
     #   spacy
+scikit-learn==1.1.3
+    # via -r requirements.in
+scipy==1.9.3
+    # via scikit-learn
 send2trash==1.8.0
     # via
     #   jupyter-server
@@ -353,8 +361,6 @@ six==1.16.0
     #   blessed
     #   libratom
     #   python-dateutil
-sklearn==0.0.post1
-    # via -r requirements.in
 smart-open==5.2.1
     # via
     #   libratom
@@ -403,6 +409,8 @@ thinc==8.1.5
     # via
     #   libratom
     #   spacy
+threadpoolctl==3.1.0
+    # via scikit-learn
 tinycss2==1.2.1
     # via nbconvert
 tomli==2.0.1
