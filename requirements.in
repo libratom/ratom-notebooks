@@ -6,6 +6,6 @@ tqdm
 jupyterlab
 ipywidgets
 matplotlib
-sklearn
+scikit-learn
 terminado
 prettytable
