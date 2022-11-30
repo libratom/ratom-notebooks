@@ -4,21 +4,22 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-anyio==3.6.1
+anyio==3.6.2
     # via jupyter-server
 argon2-cffi==21.3.0
     # via
     #   jupyter-server
+    #   nbclassic
     #   notebook
 argon2-cffi-bindings==21.2.0
     # via argon2-cffi
-asttokens==2.0.5
+asttokens==2.2.0
     # via stack-data
-attrs==21.4.0
+attrs==22.1.0
     # via
     #   jsonschema
     #   libratom
-babel==2.10.1
+babel==2.11.0
     # via jupyterlab-server
 backcall==0.2.0
     # via ipython
@@ -26,30 +27,29 @@ beautifulsoup4==4.11.1
     # via
     #   libratom
     #   nbconvert
-bleach==5.0.0
+bleach==5.0.1
     # via nbconvert
 blessed==1.19.1
     # via
     #   enlighten
     #   libratom
-blis==0.7.7
+blis==0.7.9
     # via
     #   libratom
-    #   spacy
     #   thinc
-catalogue==2.0.7
+catalogue==2.0.8
     # via
     #   libratom
     #   spacy
     #   srsly
     #   thinc
-certifi==2022.5.18.1
+certifi==2022.9.24
     # via
     #   libratom
     #   requests
-cffi==1.15.0
+cffi==1.15.1
     # via argon2-cffi-bindings
-charset-normalizer==2.0.12
+charset-normalizer==2.1.1
     # via
     #   libratom
     #   requests
@@ -60,65 +60,72 @@ click==8.1.3
     #   typer
 click-log==0.4.0
     # via libratom
+confection==0.0.3
+    # via
+    #   libratom
+    #   thinc
+contourpy==1.0.6
+    # via matplotlib
 cycler==0.11.0
     # via matplotlib
-cymem==2.0.6
+cymem==2.0.7
     # via
     #   libratom
     #   preshed
     #   spacy
     #   thinc
-debugpy==1.6.0
+debugpy==1.6.4
     # via ipykernel
 decorator==5.1.1
     # via ipython
 defusedxml==0.7.1
     # via nbconvert
-enlighten==1.10.2
+enlighten==1.11.1
     # via libratom
 entrypoints==0.4
-    # via
-    #   jupyter-client
-    #   nbconvert
-executing==0.8.3
+    # via jupyter-client
+executing==1.2.0
     # via stack-data
-fastjsonschema==2.15.3
+fastjsonschema==2.16.2
     # via nbformat
-fonttools==4.33.3
+fonttools==4.38.0
     # via matplotlib
 future==0.18.2
     # via
     #   libratom
     #   treelib
-greenlet==1.1.2
+greenlet==2.0.1
     # via
     #   libratom
     #   sqlalchemy
 humanfriendly==10.0
     # via libratom
-idna==3.3
+idna==3.4
     # via
     #   anyio
     #   libratom
     #   requests
-importlib-metadata==4.11.4
-    # via jupyterlab-server
-ipykernel==6.13.1
+importlib-metadata==5.1.0
+    # via
+    #   jupyterlab-server
+    #   nbconvert
+ipykernel==6.17.1
     # via
     #   ipywidgets
+    #   nbclassic
     #   notebook
-ipython==8.4.0
+ipython==8.7.0
     # via
     #   ipykernel
     #   ipywidgets
     #   jupyterlab
 ipython-genutils==0.2.0
     # via
-    #   ipywidgets
+    #   nbclassic
     #   notebook
-ipywidgets==7.7.0
+ipywidgets==8.0.2
     # via -r requirements.in
-jedi==0.18.1
+jedi==0.18.2
     # via ipython
 jinja2==3.1.2
     # via
@@ -126,47 +133,49 @@ jinja2==3.1.2
     #   jupyterlab
     #   jupyterlab-server
     #   libratom
+    #   nbclassic
     #   nbconvert
     #   notebook
     #   spacy
-joblib==1.1.0
-    # via scikit-learn
-json5==0.9.8
+json5==0.9.10
     # via jupyterlab-server
-jsonschema==4.6.0
+jsonschema==4.17.1
     # via
     #   jupyterlab-server
     #   libratom
     #   nbformat
-jupyter-client==7.3.4
+jupyter-client==7.4.7
     # via
     #   ipykernel
     #   jupyter-server
+    #   nbclassic
     #   nbclient
     #   notebook
-jupyter-core==4.10.0
+jupyter-core==5.1.0
     # via
     #   jupyter-client
     #   jupyter-server
     #   jupyterlab
+    #   nbclassic
+    #   nbclient
     #   nbconvert
     #   nbformat
     #   notebook
-jupyter-server==1.17.1
+jupyter-server==1.23.3
     # via
     #   jupyterlab
     #   jupyterlab-server
     #   nbclassic
     #   notebook-shim
-jupyterlab==3.4.3
+jupyterlab==3.5.0
     # via -r requirements.in
 jupyterlab-pygments==0.2.2
     # via nbconvert
-jupyterlab-server==2.14.0
+jupyterlab-server==2.16.3
     # via jupyterlab
-jupyterlab-widgets==1.1.0
+jupyterlab-widgets==3.0.3
     # via ipywidgets
-kiwisolver==1.4.2
+kiwisolver==1.4.4
     # via matplotlib
 langcodes==3.3.0
     # via
@@ -174,62 +183,62 @@ langcodes==3.3.0
     #   spacy
 libpff-python-ratom==20220304
     # via libratom
-libratom==0.6.0
+libratom==0.7.0
     # via -r requirements.in
 markupsafe==2.1.1
     # via
     #   jinja2
     #   libratom
     #   nbconvert
-matplotlib==3.5.2
+matplotlib==3.6.2
     # via -r requirements.in
-matplotlib-inline==0.1.3
+matplotlib-inline==0.1.6
     # via
     #   ipykernel
     #   ipython
-mistune==0.8.4
+mistune==2.0.4
     # via nbconvert
-murmurhash==1.0.7
+murmurhash==1.0.9
     # via
     #   libratom
     #   preshed
     #   spacy
     #   thinc
-nbclassic==0.3.7
-    # via jupyterlab
-nbclient==0.6.4
-    # via nbconvert
-nbconvert==6.5.0
+nbclassic==0.4.8
     # via
-    #   jupyter-server
+    #   jupyterlab
     #   notebook
-nbformat==5.4.0
+nbclient==0.7.2
+    # via nbconvert
+nbconvert==7.2.5
     # via
-    #   ipywidgets
     #   jupyter-server
+    #   nbclassic
+    #   notebook
+nbformat==5.7.0
+    # via
+    #   jupyter-server
+    #   nbclassic
     #   nbclient
     #   nbconvert
     #   notebook
-nest-asyncio==1.5.5
+nest-asyncio==1.5.6
     # via
     #   ipykernel
     #   jupyter-client
-    #   nbclient
-    #   notebook
-notebook==6.4.12
-    # via
     #   nbclassic
-    #   widgetsnbextension
-notebook-shim==0.1.0
+    #   notebook
+notebook==6.5.2
+    # via jupyterlab
+notebook-shim==0.2.2
     # via nbclassic
-numpy==1.22.4
+numpy==1.23.5
     # via
     #   blis
+    #   contourpy
     #   libratom
     #   matplotlib
     #   pandas
-    #   scikit-learn
-    #   scipy
     #   spacy
     #   thinc
 packaging==21.3
@@ -242,42 +251,45 @@ packaging==21.3
     #   matplotlib
     #   nbconvert
     #   spacy
-pandas==1.4.2
+pandas==1.5.2
     # via -r requirements.in
 pandocfilters==1.5.0
     # via nbconvert
 parso==0.8.3
     # via jedi
-pathy==0.6.1
+pathy==0.10.0
     # via
     #   libratom
     #   spacy
-pbr==5.9.0
+pbr==5.11.0
     # via libratom
 pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-pillow==9.1.1
+pillow==9.3.0
     # via matplotlib
-prefixed==0.3.2
+platformdirs==2.5.4
+    # via jupyter-core
+prefixed==0.5.0
     # via
     #   enlighten
     #   libratom
-preshed==3.0.6
+preshed==3.0.8
     # via
     #   libratom
     #   spacy
     #   thinc
-prettytable==3.3.0
+prettytable==3.5.0
     # via -r requirements.in
-prometheus-client==0.14.1
+prometheus-client==0.15.0
     # via
     #   jupyter-server
+    #   nbclassic
     #   notebook
-prompt-toolkit==3.0.29
+prompt-toolkit==3.0.33
     # via ipython
-psutil==5.9.1
+psutil==5.9.4
     # via
     #   ipykernel
     #   libratom
@@ -289,12 +301,13 @@ pure-eval==0.2.2
     # via stack-data
 pycparser==2.21
     # via cffi
-pydantic==1.8.2
+pydantic==1.10.2
     # via
+    #   confection
     #   libratom
     #   spacy
     #   thinc
-pygments==2.12.0
+pygments==2.13.0
     # via
     #   ipython
     #   nbconvert
@@ -303,7 +316,7 @@ pyparsing==3.0.9
     #   libratom
     #   matplotlib
     #   packaging
-pyrsistent==0.18.1
+pyrsistent==0.19.2
     # via
     #   jsonschema
     #   libratom
@@ -312,27 +325,26 @@ python-dateutil==2.8.2
     #   jupyter-client
     #   matplotlib
     #   pandas
-pytz==2022.1
+pytz==2022.6
     # via
     #   babel
     #   pandas
-pyzmq==23.1.0
+pyzmq==24.0.1
     # via
+    #   ipykernel
     #   jupyter-client
     #   jupyter-server
+    #   nbclassic
     #   notebook
-requests==2.27.1
+requests==2.28.1
     # via
     #   jupyterlab-server
     #   libratom
     #   spacy
-scikit-learn==1.1.1
-    # via sklearn
-scipy==1.8.1
-    # via scikit-learn
 send2trash==1.8.0
     # via
     #   jupyter-server
+    #   nbclassic
     #   notebook
 six==1.16.0
     # via
@@ -341,72 +353,75 @@ six==1.16.0
     #   blessed
     #   libratom
     #   python-dateutil
-sklearn==0.0
+sklearn==0.0.post1
     # via -r requirements.in
 smart-open==5.2.1
     # via
     #   libratom
     #   pathy
-sniffio==1.2.0
+sniffio==1.3.0
     # via anyio
 soupsieve==2.3.2.post1
     # via
     #   beautifulsoup4
     #   libratom
-spacy==3.3.0
+spacy==3.4.3
     # via
     #   -r requirements.in
     #   libratom
-spacy-legacy==3.0.9
+spacy-legacy==3.0.10
     # via
     #   libratom
     #   spacy
-spacy-loggers==1.0.2
+spacy-loggers==1.0.3
     # via
     #   libratom
     #   spacy
-sqlalchemy==1.4.37
+sqlalchemy==1.4.44
     # via
     #   -r requirements.in
     #   libratom
-srsly==2.4.3
+srsly==2.4.5
     # via
+    #   confection
     #   libratom
     #   spacy
     #   thinc
-stack-data==0.2.0
+stack-data==0.6.2
     # via ipython
-striprtf==0.0.20
+striprtf==0.0.22
     # via libratom
-tabulate==0.8.9
+tabulate==0.9.0
     # via libratom
-terminado==0.15.0
+terminado==0.17.0
     # via
     #   -r requirements.in
     #   jupyter-server
+    #   nbclassic
     #   notebook
-thinc==8.0.17
+thinc==8.1.5
     # via
     #   libratom
     #   spacy
-threadpoolctl==3.1.0
-    # via scikit-learn
-tinycss2==1.1.1
+tinycss2==1.2.1
     # via nbconvert
-tornado==6.1
+tomli==2.0.1
+    # via jupyterlab
+tornado==6.2
     # via
     #   ipykernel
     #   jupyter-client
     #   jupyter-server
     #   jupyterlab
+    #   nbclassic
     #   notebook
     #   terminado
-tqdm==4.64.0
+tqdm==4.64.1
     # via
     #   -r requirements.in
     #   libratom
     #   spacy
-traitlets==5.2.2.post1
+traitlets==5.6.0
     # via
     #   ipykernel
     #   ipython
@@ -415,26 +430,27 @@ traitlets==5.2.2.post1
     #   jupyter-core
     #   jupyter-server
     #   matplotlib-inline
+    #   nbclassic
     #   nbclient
     #   nbconvert
     #   nbformat
     #   notebook
 treelib==1.6.1
     # via libratom
-typer==0.4.1
+typer==0.7.0
     # via
     #   libratom
     #   pathy
     #   spacy
-typing-extensions==4.2.0
+typing-extensions==4.4.0
     # via
     #   libratom
     #   pydantic
-urllib3==1.26.9
+urllib3==1.26.13
     # via
     #   libratom
     #   requests
-wasabi==0.9.1
+wasabi==0.10.1
     # via
     #   libratom
     #   spacy
@@ -450,11 +466,11 @@ webencodings==0.5.1
     # via
     #   bleach
     #   tinycss2
-websocket-client==1.3.2
+websocket-client==1.4.2
     # via jupyter-server
-widgetsnbextension==3.6.0
+widgetsnbextension==4.0.3
     # via ipywidgets
-zipp==3.8.0
+zipp==3.11.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
