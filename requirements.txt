@@ -146,7 +146,7 @@ jsonschema==4.17.1
     #   jupyterlab-server
     #   libratom
     #   nbformat
-jupyter-client==7.4.7
+jupyter-client==7.4.8
     # via
     #   ipykernel
     #   jupyter-server
