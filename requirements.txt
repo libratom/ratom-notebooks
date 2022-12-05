@@ -169,7 +169,7 @@ jupyter-server==1.23.3
     #   jupyterlab-server
     #   nbclassic
     #   notebook-shim
-jupyterlab==3.5.0
+jupyterlab==3.5.1
     # via -r requirements.in
 jupyterlab-pygments==0.2.2
     # via nbconvert
