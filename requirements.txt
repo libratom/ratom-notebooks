@@ -212,7 +212,7 @@ nbclassic==0.4.8
     #   notebook
 nbclient==0.7.2
     # via nbconvert
-nbconvert==7.2.6
+nbconvert==7.2.7
     # via
     #   jupyter-server
     #   nbclassic
