@@ -476,7 +476,7 @@ webencodings==0.5.1
     #   tinycss2
 websocket-client==1.4.2
     # via jupyter-server
-widgetsnbextension==4.0.3
+widgetsnbextension==4.0.5
     # via ipywidgets
 zipp==3.11.0
     # via importlib-metadata
