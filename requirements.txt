@@ -273,7 +273,7 @@ pickleshare==0.7.5
     # via ipython
 pillow==9.3.0
     # via matplotlib
-platformdirs==2.5.4
+platformdirs==2.6.2
     # via jupyter-core
 prefixed==0.5.0
     # via
